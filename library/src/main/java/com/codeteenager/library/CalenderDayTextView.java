@@ -6,12 +6,13 @@ import android.graphics.Color;
 import android.graphics.Paint;
 import android.support.annotation.Nullable;
 import android.util.AttributeSet;
+import android.widget.TextView;
 
 /**
  * Created by shuai on 2017/5/4.
  */
 
-public class CalenderDayTextView extends android.support.v7.widget.AppCompatTextView {
+public class CalenderDayTextView extends TextView {
     public boolean isToday = false;
     private Paint paint = new Paint();
 
